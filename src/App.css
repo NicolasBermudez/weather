@@ -1,0 +1,72 @@
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  width: 100%;
+  background-image: url(montevideo.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.card {
+  padding: 20px;
+  width: 100%;
+  max-width: 300px;
+  max-height: 500px;
+  background-color: #70707099;
+  border-radius: 15px;
+
+}
+
+.card__title {
+  text-align: center;
+  font-size: 2 rem;
+}
+
+.card__subtitle {
+  text-align: center;
+  font: 1rem sans-serif;
+}
+
+.card__icon--container {
+  display: flex;
+  justify-content: center;
+}
+
+.card__icon {
+  max-width: 100px;
+  max-height: 100px;
+}
+
+.card__description, .card__temp{
+  margin: 10px;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.card__item {
+  margin: 5px;
+  text-align: center;
+  font: 1 rem sans-serif;
+}
+
+.card__footer {
+  display: flex;
+  justify-content: center;
+}
+
+.card__btn {
+  width: 120px;
+  height: 30px;
+  justify-content: center;
+  background-color: #707070;
+  border-radius: 5px;
+  font: 1rem sans-serif;
+}
+
+.card__btn:hover {
+  width: 125px;
+  height: 35px;
+}
